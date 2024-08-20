@@ -7,15 +7,10 @@ metadata:
   name: bgd
   namespace: bgd
 spec:
-  host: "PATCH_ME"
   port:
     targetPort: 8080
   to:
     kind: Service
     name: bgd
     weight: 100
-status:
-  ingress:
-  - conditions:
-    - status: "True"
-      type: Admitted
+
