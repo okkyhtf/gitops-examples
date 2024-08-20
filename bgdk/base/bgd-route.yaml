@@ -14,7 +14,6 @@ spec:
     kind: Service
     name: bgd
     weight: 100
-  wildcardPolicy: Subdomain
 status:
   ingress:
   - conditions:
